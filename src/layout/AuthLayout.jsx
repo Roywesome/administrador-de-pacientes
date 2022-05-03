@@ -4,8 +4,7 @@ import {Outlet} from 'react-router-dom'
 const AuthLayout = () => {
   return (
     <div>
-        <h1></h1>
-
+        <h2>AuthLayout</h2>
         <Outlet />
     </div>
 
