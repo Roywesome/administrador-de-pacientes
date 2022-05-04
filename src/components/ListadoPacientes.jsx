@@ -11,7 +11,7 @@ const ListadoPacientes = ({ db, onRemove, setDataToEdit }) => {
       </p>
 
       {db.length === 0 ? (
-        <p className="bg-rose-300 text-center font-bold p-3 rounded-md">
+        <p className="bg-rose-300 text-center font-bold p-3 rounded-md mx-4">
           Sin datos
         </p>
       ) : (
